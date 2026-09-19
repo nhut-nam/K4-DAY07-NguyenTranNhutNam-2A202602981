@@ -101,16 +101,16 @@ class HeadingChunker:
 ```
 
 **Thành viên 2 — Nguyễn Quốc Đạt**
+- **Loại chiến lược:** RecursiveChunker (`chunk_size=700`)
+- **Mô tả & lý do chọn:** Sử dụng đệ quy ưu tiên cắt theo `\n\n`, `\n`, `. `, ` ` kết hợp bước gom (merge). Với `chunk_size=700`, chiến lược giữ được trọn vẹn từng bảng học phí tiếng Anh và các hướng dẫn nộp tiền mà không bị đứt đoạn.
+
+**Thành viên 3 — Nguyễn Văn Huy**
 - **Loại chiến lược:** FixedSizeChunker (`chunk_size=500, overlap=50`)
 - **Mô tả & lý do chọn:** Chia nhỏ văn bản theo độ dài cố định 500 ký tự với độ chồng chéo 50 ký tự. Đơn giản, đảm bảo kích thước các vector embedding đồng đều, nhưng nhược điểm là dễ cắt ngang giữa bảng số liệu.
 
-**Thành viên 3 — Nguyễn Văn Huy**
+**Thành viên 4 — Nguyễn Trọng Phúc**
 - **Loại chiến lược:** SentenceChunker (`max_sentences_per_chunk=3`)
 - **Mô tả & lý do chọn:** Chia theo ranh giới câu tự nhiên. Rất tốt cho các đoạn văn mô tả điều kiện miễn giảm, nhưng gặp khó khăn khi văn bản chứa bảng biểu dạng Markdown.
-
-**Thành viên 4 — Nguyễn Trọng Phúc**
-- **Loại chiến lược:** RecursiveChunker (`chunk_size=700`)
-- **Mô tả & lý do chọn:** Sử dụng đệ quy ưu tiên cắt theo `\n\n`, `\n`, `. `, ` ` kết hợp bước gom (merge). Với `chunk_size=700`, chiến lược giữ được trọn vẹn từng bảng học phí tiếng Anh và các hướng dẫn nộp tiền mà không bị đứt đoạn.
 
 ### So Sánh Giữa Các Thành Viên
 
