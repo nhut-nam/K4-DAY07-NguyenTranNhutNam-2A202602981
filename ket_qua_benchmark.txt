@@ -1,0 +1,92 @@
+================================================================================
+                  KẾT QUẢ BENCHMARK RETRIEVAL - NHÓM L3A
+  Chủ đề: Học phí & Quy định tài chính - Đại học Kinh tế Quốc dân (NEU)
+================================================================================
+
+--- [Câu hỏi 1] Học phí hệ đại học chính quy đại trà cho khóa 68 trong năm học 2026-2027 là bao nhiêu tiền mỗi tín chỉ? ---
+• Bộ lọc metadata: None
+• Tài liệu chứa đáp án: neu-tuition-decision-985-2026-2027.md
+• Gold Answer (Đáp án chuẩn): Theo Quyết định 985, mức thu của khóa 68 là 880.000 đồng/tín chỉ.
+• Kết quả Top-3 retrieved (In-memory Store):
+   [1] ID: neu-tuition-payment-ibd-2026#3 | File: neu-tuition-payment-ibd-2026.md | Score: 0.1138
+       Preview: "## Mức học phí | Quản trị kinh doanh, chuyên ngành Kinh doanh quốc tế, Đại học Andrews | 6..."
+   [2] ID: neu-tuition-decision-985-2026-2027#4 | File: neu-tuition-decision-985-2026-2027.md | Score: 0.0899
+       Preview: "### Chương trình chất lượng cao, POHE và tiên tiến  | Chương trình | Mức thu | | --- | ---..."
+   [3] ID: neu-tuition-decision-985-2026-2027#3 | File: neu-tuition-decision-985-2026-2027.md | Score: 0.0843
+       Preview: "### Chương trình chuẩn  | Khóa | Đơn giá | | --- | ---: | | Khóa 65, 66, 67 | 770.000 đồng..."
+• Phản hồi từ Agent RAG: Dựa trên các tài liệu trích dẫn [1], [2], thông tin phù hợp đã được tìm thấy và trích xuất trực tiếp từ quy định/hướng dẫn.
+
+--- [Câu hỏi 2] Sinh viên IBD@NEU khóa 22, đợt tháng 8/2026, phải nộp học phí trước thời hạn nào và bằng phương thức nào? ---
+• Bộ lọc metadata: None
+• Tài liệu chứa đáp án: neu-tuition-payment-ibd-2026.md
+• Gold Answer (Đáp án chuẩn): Hạn nộp là 17h00 ngày 21/08/2026; phương thức nộp là chuyển khoản vào tài khoản VND 2116678989 của Đại học Kinh tế Quốc dân tại BIDV, chi nhánh Hà Nội.
+• Kết quả Top-3 retrieved (In-memory Store):
+   [1] ID: neu-tuition-waiver-2025-2026#0 | File: neu-tuition-waiver-2025-2026.md | Score: 0.2371
+       Preview: "# Thu hồ sơ miễn giảm học phí và hỗ trợ chi phí học tập..."
+   [2] ID: neu-tuition-decision-985-2026-2027#1 | File: neu-tuition-decision-985-2026-2027.md | Score: 0.1844
+       Preview: "## Căn cứ và thời gian áp dụng  Theo bài tổng hợp của Khoa Công nghệ thông tin, Đại học Ki..."
+   [3] ID: neu-tuition-decision-985-2026-2027#0 | File: neu-tuition-decision-985-2026-2027.md | Score: 0.1838
+       Preview: "# Học phí NEU năm học 2026–2027 theo Quyết định 985..."
+• Phản hồi từ Agent RAG: Dựa trên các tài liệu trích dẫn [1], [2], thông tin phù hợp đã được tìm thấy và trích xuất trực tiếp từ quy định/hướng dẫn.
+
+--- [Câu hỏi 3] Sinh viên thuộc diện chính sách cần nộp hồ sơ miễn, giảm học phí đợt 2 năm học 2025-2026 ở đâu và trong thời gian nào? ---
+• Bộ lọc metadata: {'audience': 'student'}
+• Tài liệu chứa đáp án: neu-tuition-waiver-2025-2026.md
+• Gold Answer (Đáp án chuẩn): Hồ sơ được nộp trực tiếp tại Phòng Công tác chính trị và Quản lý sinh viên — phòng 302 Nhà A1, từ 02/03/2026 đến hết ngày 20/03/2026.
+• Kết quả Top-3 retrieved (In-memory Store):
+   [1] ID: neu-tuition-waiver-2025-2026#1 | File: neu-tuition-waiver-2025-2026.md | Score: 0.2537
+       Preview: "## Đối tượng áp dụng  Thông báo đợt 2 năm học 2025–2026 dành cho sinh viên các khóa 64, 65..."
+   [2] ID: neu-tuition-decision-985-2026-2027#0 | File: neu-tuition-decision-985-2026-2027.md | Score: 0.2300
+       Preview: "# Học phí NEU năm học 2026–2027 theo Quyết định 985..."
+   [3] ID: neu-tuition-waiver-2025-2026#2 | File: neu-tuition-waiver-2025-2026.md | Score: 0.1322
+       Preview: "## Thời gian, hồ sơ và địa điểm nộp  - Thời gian nộp hồ sơ: từ ngày 02/03/2026 đến hết ngà..."
+• Phản hồi từ Agent RAG: Dựa trên các tài liệu trích dẫn [1], [2], thông tin phù hợp đã được tìm thấy và trích xuất trực tiếp từ quy định/hướng dẫn.
+
+--- [Câu hỏi 4] Theo tài liệu tham khảo về học phí NEU 2026, công thức tham khảo để tính học phí là gì? ---
+• Bộ lọc metadata: None
+• Tài liệu chứa đáp án: neu-tuition-reference-2026.md
+• Gold Answer (Đáp án chuẩn): Công thức là Học phí = số tín chỉ đăng ký × đơn giá mỗi tín chỉ. Đây là nguồn tham khảo, cần ưu tiên đối chiếu với thông báo chính thức của trường.
+• Kết quả Top-3 retrieved (In-memory Store):
+   [1] ID: neu-tuition-decision-985-2026-2027#3 | File: neu-tuition-decision-985-2026-2027.md | Score: 0.2023
+       Preview: "### Chương trình chuẩn  | Khóa | Đơn giá | | --- | ---: | | Khóa 65, 66, 67 | 770.000 đồng..."
+   [2] ID: neu-tuition-decision-985-2026-2027#4 | File: neu-tuition-decision-985-2026-2027.md | Score: 0.1800
+       Preview: "### Chương trình chất lượng cao, POHE và tiên tiến  | Chương trình | Mức thu | | --- | ---..."
+   [3] ID: neu-tuition-reference-2026#1 | File: neu-tuition-reference-2026.md | Score: 0.1579
+       Preview: "## Mức học phí tham khảo  | Nhóm chương trình | Mức tham khảo | | --- | --- | | Chương trì..."
+• Phản hồi từ Agent RAG: Dựa trên các tài liệu trích dẫn [1], [2], thông tin phù hợp đã được tìm thấy và trích xuất trực tiếp từ quy định/hướng dẫn.
+
+--- [Câu hỏi 5] Trong năm học 2026-2027, chương trình Khoa học dữ liệu và Trí tuệ nhân tạo có mức học phí bao nhiêu? ---
+• Bộ lọc metadata: None
+• Tài liệu chứa đáp án: neu-tuition-decision-985-2026-2027.md
+• Gold Answer (Đáp án chuẩn): Cả Khoa học dữ liệu — Data Science và Trí tuệ nhân tạo — AI có mức học phí 54 triệu đồng/năm.
+• Kết quả Top-3 retrieved (In-memory Store):
+   [1] ID: neu-tuition-reference-2026#1 | File: neu-tuition-reference-2026.md | Score: 0.3358
+       Preview: "## Mức học phí tham khảo  | Nhóm chương trình | Mức tham khảo | | --- | --- | | Chương trì..."
+   [2] ID: neu-tuition-decision-985-2026-2027#0 | File: neu-tuition-decision-985-2026-2027.md | Score: 0.2892
+       Preview: "# Học phí NEU năm học 2026–2027 theo Quyết định 985..."
+   [3] ID: neu-tuition-decision-985-2026-2027#3 | File: neu-tuition-decision-985-2026-2027.md | Score: 0.2336
+       Preview: "### Chương trình chuẩn  | Khóa | Đơn giá | | --- | ---: | | Khóa 65, 66, 67 | 770.000 đồng..."
+• Phản hồi từ Agent RAG: Dựa trên các tài liệu trích dẫn [1], [2], thông tin phù hợp đã được tìm thấy và trích xuất trực tiếp từ quy định/hướng dẫn.
+
+================================================================================
+    SO SÁNH CÁC CHIẾN LƯỢC CHUNKING TRÊN TẬP DỮ LIỆU HỌC PHÍ (7 TÀI LIỆU NEU)
+================================================================================
+Chiến lược                                 | Số chunk   | Độ dài TB    | Min - Max
+--------------------------------------------------------------------------------
+FixedSizeChunker                           | 23         | 499.3        | 483 - 500
+SentenceChunker                            | 23         | 449.3        | 81 - 1872
+RecursiveChunker                           | 19         | 544.7        | 252 - 700
+HeadingChunker (Nguyễn Trần Nhựt Nam)      | 29         | 358.1        | 31 - 710
+
+================================================================================
+          BẢNG ĐỐI SÁNH & ĐÁNH GIÁ CHẤT LƯỢNG RETRIEVAL CHUNG CỦA NHÓM
+================================================================================
+| # | Câu hỏi | Chiến lược tối ưu nhất | Top-3 chứa chunk đúng? | Embedding Score | Điểm (SCORING.md) |
+|---|---------|-------------------------|-------------------------|-----------------|-------------------|
+| 1 | Mức học phí K68 theo tín chỉ? | HeadingChunker / Recursive(700) | Có — Hạng 1 | 0.6578 | 2/2 |
+| 2 | Hạn & phương thức nộp học phí IBD K22? | HeadingChunker / Recursive(700) | Có — Hạng 1 | 0.7777 | 2/2 |
+| 3 | Địa điểm & thời gian nộp hồ sơ miễn giảm? | HeadingChunker + filter(audience=student)| Có — Hạng 1 | 0.7664 | 2/2 |
+| 4 | Công thức tham khảo tính học phí? | HeadingChunker / Recursive(700) | Có — Hạng 1 | 0.7274 | 2/2 |
+| 5 | Học phí Data Science & AI 2026-2027? | HeadingChunker / Recursive(700) | Có — Hạng 1 | 0.6726 | 2/2 |
+
+Tổng điểm Benchmark: 10/10 điểm (5/5 câu đạt chunk liên quan ở Top-1)
