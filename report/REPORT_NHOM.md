@@ -1,6 +1,6 @@
 # Báo Cáo Nhóm — Lab 7: Embedding & Vector Store
 
-**Nhóm:** Sentinel
+**Nhóm:** G22
 **Thành viên:**
 - Nguyễn Trần Nhựt Nam
 - Nguyễn Quốc Đạt
