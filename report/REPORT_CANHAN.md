@@ -2,7 +2,7 @@
 
 **Họ tên:** Nguyễn Trần Nhựt Nam
 **MSSV:** 2A202602981
-**Nhóm:** Nhóm L3A (Chủ đề: Dịch vụ & Quy định Đại học)
+**Nhóm:** Sentinel
 **Ngày:** 19/09/2026
 
 > **Nộp 1 bản / sinh viên.** Phần nhóm (lựa chọn tài liệu, thiết kế chiến lược, bộ câu hỏi đánh giá, demo) nộp chung 1 bản trong `REPORT_NHOM.md`. Chi tiết thang điểm: `docs/SCORING.md`.

@@ -1,6 +1,6 @@
 # Báo Cáo Nhóm — Lab 7: Embedding & Vector Store
 
-**Nhóm:** Nhóm L3A
+**Nhóm:** Sentinel
 **Thành viên:**
 - Nguyễn Trần Nhựt Nam
 - Nguyễn Quốc Đạt
